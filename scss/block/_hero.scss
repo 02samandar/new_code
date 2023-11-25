@@ -1,0 +1,109 @@
+.page {
+  padding-top: 200px;
+  padding-bottom: 274px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../img/backgro.svg);
+  // flex-shrink: 0;
+  margin-bottom: 50px;
+}
+
+.page__content {
+  position: relative;
+}
+
+.page_title {
+  max-width: 639px;
+  color: #03453b;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.page_text {
+  max-width: 637px;
+  color: #03453b;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page_btn {
+  display: flex;
+  color: #ebebeb;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #03453b;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.page_list {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  // top: 0;
+  bottom: -20%;
+  left: 45.9%;
+}
+.page_list {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .page__container {
+    padding-top: 98px;
+    padding-bottom: 170px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../img/planshet.back.svg);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .page_list {
+    margin-left: -70px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .page_list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .page_main_img_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 171px;
+    height: 16px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../img/forever-new.svg);
+    margin-top: 210px;
+    margin-left: 89px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page__container {
+    padding-top: 30px;
+    padding-bottom: 182px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../img/responsive-500px-back.svg);
+  }
+}
